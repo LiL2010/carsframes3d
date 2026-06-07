@@ -1,0 +1,249 @@
+body{
+    background-color: red;
+    margin: 0;
+    display: grid;
+    place-items: center;    /* Centrează pe ambele axe instant */   
+}
+.menubar{
+    background-color: black;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 99%;
+    border: solid white 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+    
+    /* 1. Această linie aliniază textul și imaginea perfect pe verticală, la mijloc */
+    align-items: center; 
+}
+div *{
+    color: white;
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.products{
+    margin-right: 15px;
+}
+
+.contact{
+    margin-left: 20px;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    /* 2. AM ȘTERS margin-bottom: 5000px; deoarece strica toată așezarea în pagină */
+}
+
+.instagram{
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 20px;
+    border: solid white 10px;
+    align-items: center;
+}
+
+.instagram-text{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.instagram-icon img{
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.tiktok{
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 10px;
+    border: solid white 10px;
+    align-items: center;
+}
+
+.tiktok-text{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.tiktok-icon img{
+    width: 65px;
+    height: 65px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.vinted{
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 10px;
+    border: solid white 10px;
+    align-items: center;
+}
+
+.vinted-text{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.vinted-icon img{
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.olx{
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 10px;
+    border: solid white 10px;
+    align-items: center;
+}
+
+.olx-text{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.olx-icon img{
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.ebay{
+    height: 80px;
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    border-radius: 30px;
+    background-color: black;
+    margin-top: 10px;
+    border: solid white 10px;
+    align-items: center;
+}
+
+.ebay-text{
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.ebay-icon img{
+    width: 75px;
+    height: 75px;
+    margin-top: 10px;
+    align-items: center;
+}
+
+@media (max-width: 100px and max-height: 300px) {
+
+    .menubar {
+        width: 90%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        height: auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .products,
+    .contact {
+        width: 100%;
+        text-align: center;
+        font-size: 14px;
+        padding: 8px 0;
+    }
+
+    .instagram,
+    .tiktok,
+    .vinted,
+    .olx,
+    .ebay {
+        width: 30%;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        overflow: hidden;
+        box-sizing: border-box;
+    }
+
+    .instagram-icon,
+    .tiktok-icon,
+    .vinted-icon,
+    .olx-icon,
+    .ebay-icon {
+        width: 6px;
+        height: 6px;
+        min-width: 6px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .instagram-icon img,
+    .tiktok-icon img,
+    .vinted-icon img,
+    .olx-icon img,
+    .ebay-icon img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    .instagram-text,
+    .tiktok-text,
+    .vinted-text,
+    .olx-text,
+    .ebay-text {
+        font-size: 6px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+
+        display: flex;
+        align-items: center;
+    }
+}
