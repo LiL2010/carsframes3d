@@ -1,0 +1,39 @@
+body{
+    background-color: red;
+}
+.menubar{
+    background-color: black;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 150px;
+    width: 99%;
+    border: solid white 10px;
+    border-radius: 20px;
+    
+    /* 1. Această linie aliniază textul și imaginea perfect pe verticală, la mijloc */
+    align-items: center; 
+}
+div *{
+    color: white;
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 40px;
+    font-weight: 1000;
+    font-style: normal;
+}
+
+.products{
+    margin-right: 15px;
+}
+
+.contact{
+    margin-left: 20px;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+img{
+    width: 140px;
+    height: 140px;
+    /* 2. AM ȘTERS margin-bottom: 5000px; deoarece strica toată așezarea în pagină */
+}
