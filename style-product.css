@@ -32,7 +32,12 @@ div *{
     border-bottom: none;
 }
 
-img{
+.product-container{
+    display: inline-flex;
+    flex-direction: collumn;
+    justify-content: space-around;
+}
+img{    
     width: 140px;
     height: 140px;
     /* 2. AM ȘTERS margin-bottom: 5000px; deoarece strica toată așezarea în pagină */
@@ -60,6 +65,33 @@ img{
     position: absolute;
     bottom: 1px;
     left:80px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+}
+
+.mercedes-w10{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 15%;
+    border: solid white 10px;
+}
+
+.mercedes-w10-foto{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+
+.mercedes-w10-text{
+    position: absolute;
+    bottom: 1px;
+    left:60px;
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px 5px black;
