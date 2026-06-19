@@ -1,0 +1,81 @@
+h1{
+    text-align: center;
+    color: white;
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 35px;
+
+}
+
+body{
+    background-color: red;
+    display: flex;
+    justify-content: center; /* centru orizontal */
+    align-items: center; 
+}
+
+.mercedes-photos{
+    display: flex;
+    border: solid white 10px;
+    border-radius: 20px;
+    background-color: black;
+}
+
+img{
+    display: block;
+    width: 300px;
+    height: 375px;
+    border-radius: 10%;
+    border: solid red 10px;
+}
+
+.mcl-38-photos{
+    width: 100%;
+    justify-content: center;   
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    border: solid white 10px;
+    border-radius: 20px;
+    height: 60px;
+    background-color: black;
+}
+
+.text{
+    color: white;
+    font-family: "Mozilla Text", sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
+.instagram{
+    margin-left: 10px;
+}
+
+.links img{
+    width: 40px;
+    height: 40px;
+    border: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.vinted img,
+.olx img,
+.ebay img{
+    width: 50px;
+    height: 50px;
+}
+
+.ebay img{
+    margin-left: 10px;
+}
+
+.tiktok img{
+    margin-left: 10px;
+}
