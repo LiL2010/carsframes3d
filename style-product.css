@@ -95,6 +95,33 @@ img{
     color: white;
     font-size: 30px;
     text-shadow: 2px 2px 5px black;
+
+    .mcl-38{
+    position: relative;
+    display: inline-block;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 15%;
+    border: solid white 10px;
+}
+
+.mcl38-foto{
+    width: 100%;
+    height: 100%;
+    border-radius: 10%;
+    width: 400px;
+    height: 500px;
+    float: left;
+}
+
+.mcl38-text{
+    position: absolute;
+    top: 400px;
+    left:110px;
+    color: white;
+    font-size: 30px;
+    text-shadow: 2px 2px 5px black;
+}
 }
 
 
